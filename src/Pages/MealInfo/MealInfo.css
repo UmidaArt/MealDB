@@ -1,0 +1,26 @@
+.mealInfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.titleInfo {
+    color: white;
+    margin: 30px 0;
+}
+.ingredients {
+    text-align: center;
+}
+.mealImg {
+    width: 30%;
+}
+.mealImg img {
+    margin-top: 30px;
+}
+.ingredients {
+    width: 60%;
+}
+.nameIngredient {
+    text-align: center;
+}

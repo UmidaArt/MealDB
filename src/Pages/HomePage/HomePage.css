@@ -1,0 +1,30 @@
+h3 {
+    font-size: 25px;
+    color: white;
+    margin: 20px 0;
+}
+p {
+    color: white;
+    margin-bottom: 5px;
+}
+.colImg {
+    width: 18%;
+}
+.colText {
+    width: 62%;
+    text-align: center;
+}
+.jsonLink {
+    color: orange;
+    text-decoration: none;
+}
+.btnPayPal {
+    background-color: #fdc339;
+    border: none;
+    border-radius: 3px;
+    padding: 10px ;
+    cursor: pointer;
+}
+.btnImg {
+    margin: 0 7px 0 0;
+}

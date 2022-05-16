@@ -1,0 +1,12 @@
+.latest {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.meal img {
+    max-width: 100%;
+}
+.mealTitle {
+    font-size: 18px;
+    color: #ad8014;
+    margin-top: 10px;
+}

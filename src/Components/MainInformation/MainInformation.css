@@ -1,0 +1,35 @@
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.inputSearch {
+    width: 320px;
+    padding: 10px;
+    border: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.searchBtn {
+    width: 33px;
+    padding: 5px;
+    border: none;
+    border-left: 1px solid #afacac;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: white;
+    cursor: pointer;
+}
+.total {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.totalMeals,
+.totalIngredients,
+.totalImg {
+    display: flex;
+    margin: 10px 10px;
+}
