@@ -2,7 +2,7 @@ import React from 'react';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Header from "./Components/Header";
 import HomePage from "./Pages/HomePage";
-import AppPages from "./Pages/App/AppPages";
+import AppPages from "./Pages/Api/ApiPages";
 import MealInfo from "./Pages/MealInfo";
 import NameIngredient from "./Pages/NameIngredient";
 import NotFound from "./Pages/NotFound";

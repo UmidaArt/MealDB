@@ -8,11 +8,16 @@ p {
     margin-bottom: 5px;
 }
 .colImg {
-    width: 18%;
+    width: 16%;
+    padding: 0 15px;
+}
+.colImg img {
+    max-width: 200px;
 }
 .colText {
-    width: 62%;
+    width: 64%;
     text-align: center;
+    padding: 0 15px;
 }
 .jsonLink {
     color: orange;
@@ -27,4 +32,41 @@ p {
 }
 .btnImg {
     margin: 0 7px 0 0;
+}
+@media (max-width: 1000px) {
+    .colImg img {
+        width: 160px;
+    }
+}
+@media (max-width: 900px) {
+    .colImg {
+        width: 30%;
+        text-align: center;
+    }
+    .colText {
+        width: 60%;
+    }
+    .colImgDel {
+        display: none;
+    }
+    .col-3 {
+        width: 33.3333%;
+    }
+}
+@media (max-width: 650px) {
+    .colImg {
+        display: none;
+    }
+    .colText {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .col-3 {
+        width: 50%;
+    }
+}
+@media (max-width: 360px) {
+    .col-3 {
+        width: 100%;
+    }
 }

@@ -53,3 +53,17 @@ a {
   text-decoration: none;
   color: #ad8014;
 }
+@media (max-width: 900px) {
+  .headerInput {
+    margin-left: auto;
+  }
+}
+@media (max-width: 650px) {
+  .headerLogo {
+    margin: 20px auto;
+    width: 100%;
+  }
+  .headerInput {
+    margin-top: 20px;
+  }
+}

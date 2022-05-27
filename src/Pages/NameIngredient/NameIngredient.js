@@ -16,15 +16,7 @@ const NameIngredient = () => {
     },[nameMeal])
     return (
         <div>
-            {/*{*/}
-            {/*    nameIngredient.map((nameIng) => (*/}
-                    <div>
-                        jjjj
-                        <h2>{nameIngredient.strMeal}</h2>
-                    </div>
-            {/*    ))*/}
-            {/*}*/}
-
+            
         </div>
     );
 };

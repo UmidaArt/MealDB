@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import {Link, useNavigate} from "react-router-dom";
 import logo from "../../assets/images/logo-small.png"
-import {twitter} from "../../assets/images/tw.png"
 import './Headers.css'
 
 const Header = () => {
@@ -28,8 +27,8 @@ const Header = () => {
                     <Link to="/">
                         <li>Home</li>
                     </Link>
-                    <Link to="/app">
-                        <li>App</li>
+                    <Link to="/api">
+                        <li>Api</li>
                     </Link>
                     <Link to="/forum">
                         <li>Forum</li>

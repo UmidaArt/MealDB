@@ -12,7 +12,7 @@ const HomePage = () => {
         <>
             <div className="row">
                 <div className="colImg">
-                    <img src={mealImg} alt="meal" width="226"/>
+                    <img src={mealImg} alt="meal"/>
                 </div>
                 <div className="colText">
                     <h1>Welcome to TheMealDB</h1>
@@ -25,8 +25,8 @@ const HomePage = () => {
                     <p>Click to Support $2 per month (cancel anytime)</p>
                     <p>Currently 750 supporters</p>
                 </div>
-                <div className="colImg">
-                    <img src={mealImg} alt="meal" width="226"/>
+                <div className="colImg colImgDel">
+                    <img src={mealImg} alt="meal"/>
                 </div>
             </div>
             <hr/>

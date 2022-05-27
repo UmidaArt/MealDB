@@ -1,6 +1,6 @@
 import React from 'react';
 
-const AppPages = () => {
+const ApiPages = () => {
     return (
         <div>
 
@@ -8,4 +8,4 @@ const AppPages = () => {
     );
 };
 
-export default AppPages;
+export default ApiPages;

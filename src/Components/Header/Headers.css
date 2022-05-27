@@ -11,7 +11,6 @@
 }
 .headerNav {
     display: flex;
-    flex-wrap: wrap;
 }
 .headerItem ul {
     margin-left: 60px;
@@ -24,4 +23,13 @@
 }
 .headerInput {
     padding: 7px;
+}
+@media (max-width: 360px) {
+    .headerNav {
+        display: flex;
+        flex-direction: column;
+    }
+    .headerItem ul {
+        margin-left: 0px;
+    }
 }

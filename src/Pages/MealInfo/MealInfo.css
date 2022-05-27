@@ -24,3 +24,20 @@
 .nameIngredient {
     text-align: center;
 }
+@media (max-width: 900px) {
+    .mealImg {
+        width: 50%;
+    }
+    .ingredients {
+        width: 50%;
+    }
+}
+@media (max-width: 650px) {
+    .mealImg {
+        width: 100%;
+    }
+    .ingredients {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
